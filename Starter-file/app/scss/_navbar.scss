@@ -1,0 +1,35 @@
+.navbar {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: url(/Starter-file/app/images/png/navbar-bg.png);
+    color: $color-black;
+    height: 1em;
+    padding: 1em;
+   
+  
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  
+  .navbar > li {
+    margin: 0 1rem;
+  }
+    .navbar-links{
+      margin-left: 40px;
+        color: $color-black;
+      text-decoration: none;
+     
+    }
+      
+    
+    .navbar-links:hover {
+    font-weight: bold;
+      color: $color-blue;
+    }
+  }
