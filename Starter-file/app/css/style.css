@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: url(/Design/Assets/png/logo__sante-34.png);
+  color: #2B2B2C;
+  height: 1em;
+  padding: 1em; }
+  .navbar .navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; }
+  .navbar .navbar > li {
+    margin: 0 1rem; }
+  .navbar .navbar-links {
+    margin-left: 40px;
+    color: #2B2B2C;
+    text-decoration: none; }
+  .navbar .navbar-links:hover {
+    font-weight: bold;
+    color: #1078AD; }
