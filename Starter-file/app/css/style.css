@@ -3,8 +3,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: url(/Design/Assets/png/logo__sante-34.png);
-  color: #2B2B2C;
+  background: url("/Design/Assets/png/Merged bar-41@2x.png");
+  color: black;
   height: 1em;
   padding: 1em; }
   .navbar .navbar {
@@ -15,8 +15,8 @@
     margin: 0 1rem; }
   .navbar .navbar-links {
     margin-left: 40px;
-    color: #2B2B2C;
+    color: black;
     text-decoration: none; }
   .navbar .navbar-links:hover {
     font-weight: bold;
-    color: #1078AD; }
+    color: blue; }
