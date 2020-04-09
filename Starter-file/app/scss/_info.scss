@@ -1,0 +1,140 @@
+
+.prg {
+    background: #F4CF1B;
+    margin-bottom: 2rem;
+    padding: 2em;
+    h4{
+        color:#1078AD;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2em;
+        
+        
+
+    }
+    p{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 1%;
+        
+    } 
+
+}
+
+.headerHero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+
+
+.txt {
+  
+    text-align: center;
+
+
+    img{
+        padding: 3em; 
+    }
+
+    &__title1 {
+        font-size: 2em;
+        color: #1078AD;
+        font-weight: 700 ;
+        
+    }
+
+    &__title2 {
+        p{
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #7F7F7F;
+        margin-bottom: .15em;
+       
+        }
+    }
+
+}
+
+.btn1 {
+    @include butn1;
+    &:hover {
+        background-color: #1078AD;
+        
+        
+      }
+
+   
+}
+
+@media only screen and (max-width: 900px){
+    
+    .prg{
+        padding: 3%;
+        h4{
+            font-size: 1.2em;
+        }
+        p{
+            font-size: 1em;
+        }
+    }
+    .txt{
+        &__title1 {
+
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+    }
+
+    .headerHero{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .img-doc{
+        width: 100%;
+    }
+
+}
+
+.sympt{
+    h2{
+        text-align: center;
+        color:#1078AD;
+        padding-top: 2em;
+        font-weight: 700;
+    }
+
+    &__disc{
+        display: grid;
+        grid-template-columns: repeat(2 , 50%);
+        padding: 3em;
+        
+        .photo{
+            text-align: center;
+            padding: 2em;
+            &__img{
+                padding-bottom:1em ;
+                &--img1{
+                    width: 2em;
+                    padding-bottom: .3em;
+                }
+                &--img2{
+                    padding-bottom: .3em;
+                }
+            }
+
+            &__text{
+                color:#1078AD;
+               font-size: 1em;
+                font-weight: bold;
+            
+            }
+            
+        }
+
+    }
+}
