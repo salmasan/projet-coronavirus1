@@ -12,43 +12,44 @@ Layout
 .clockbox,
 #clock {
     width: 100%;
+    background-color: black;
 }
 
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: black;
+    stroke:black;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .mid-circle {
-    fill:red;
+    fill:yellowgreen;
 }
 .hour-marks {
     fill: none;
-    stroke: red;
+    stroke: yellowgreen;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .hour-arm {
     fill: none;
-    stroke: #000;
+    stroke:yellowgreen;
     stroke-width: 17;
     stroke-miterlimit: 10;
 }
 
 .minute-arm {
     fill: none;
-    stroke: #000;
+    stroke:yellowgreen;
     stroke-width: 11;
     stroke-miterlimit: 10;
 }
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: yellow;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
@@ -63,5 +64,4 @@ Layout
 #minute,
 #second {
     transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
 }
